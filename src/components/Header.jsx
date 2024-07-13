@@ -1,21 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './header.css'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+ const [activeNav, setActive] = useState('');
+
+ const handleState = (state) => {
+  setActive(state)
+ }
+
+<button id="like">Like</button>
     return (
       <div className="header_sect">
         <nav>
           <ul>
-            <Link className="link" to={"/"}>
+            <NavLink
+              className="link"
+              onClick={() => handleState("home")}
+              to={"/"}
+            >
               Home
-            </Link>
-            <Link className="link" to={"/blogs"}>
+            </NavLink>
+            <NavLink
+              to={"/blogs"}
+              className='link'
+            >
               Blog
-            </Link>
-            <Link className="link" to={"/works"}>
+            </NavLink>
+            <NavLink
+              className='link'
+              to={"/works"}
+            >
               Works
-            </Link>
+            </NavLink>
           </ul>
         </nav>
       </div>
