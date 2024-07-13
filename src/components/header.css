@@ -15,7 +15,13 @@
 }
 
 .header_sect nav ul .link {
-    color: black;
     text-decoration: none;
     font-size: 1.3rem;
+    cursor: pointer;
 }
+
+
+nav a.active{
+    color: crimson;
+}
+
