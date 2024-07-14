@@ -1,7 +1,7 @@
-import img1 from "/src/assets/dashboard.jpeg";
-import img2 from "/src/assets/portrait.jpeg";
-import img3 from "/src/assets/typography.jpeg";
-import img4 from "/src/assets/component.jpeg";
+import img1 from "/assets/dashboard.jpeg";
+import img2 from "/assets/portrait.jpeg";
+import img3 from "/assets/typography.jpeg";
+import img4 from "/assets/component.jpeg";
 const worksData = [
   {
     imgSrc: img1,
