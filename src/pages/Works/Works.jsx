@@ -1,6 +1,6 @@
 import React from "react";
 import "./works.css";
-import worksData from "./worksData.js";
+import worksData from "../../data/worksData.js";
 const Works = () => {
   return (
     <section className="works-section">
