@@ -10,7 +10,7 @@ function FeaturedWork() {
         <div className="FeaturedTitle">
           <p>featured works</p>
         </div>
-        <div className="ActualContainer">
+        <div className="ActualContainers">
           {FeaturedData.map((item, index) => (
             <Map
               key={index}
