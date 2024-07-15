@@ -19,7 +19,7 @@ html {
   font-weight: bold;
   margin-bottom: 2rem;
 }
-.ActualContainers{
+.ActualContainers {
   display: flex;
   justify-content: center;
   align-items: center;

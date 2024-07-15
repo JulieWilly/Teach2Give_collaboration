@@ -9,9 +9,11 @@ const Blog_structure = ({ blogTitle, blogDate, blogTopics, blogDesc }) => {
         <div className="sub_sect">
           <p className="blog_date">{blogDate}</p>
           <hr className="vertical" />
-          <p>{blogTopics}</p>
+          <p className="topics">{blogTopics}</p>
         </div>
-        <p role="blog_desc" className="blog_desc">{blogDesc}</p>
+        <p role="blog_desc" className="blog_desc">
+          {blogDesc}
+        </p>
       </div>
       <hr className="horizontal" />
     </>

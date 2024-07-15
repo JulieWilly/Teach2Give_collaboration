@@ -4,17 +4,14 @@ import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
-const SocialIcons = ({ twitterUrl, fbUrl, instaUrl ,linkedUrl }) => {
+const SocialIcons = ({ twitterUrl, fbUrl, instaUrl, linkedUrl }) => {
   return (
     <div className="IconBox">
-
-      
-{fbUrl && (
+      {fbUrl && (
         <Link to={fbUrl}>
           <FaFacebook />
         </Link>
       )}
-      
 
       {instaUrl && (
         <Link to={instaUrl}>
@@ -28,7 +25,7 @@ const SocialIcons = ({ twitterUrl, fbUrl, instaUrl ,linkedUrl }) => {
         </Link>
       )}
 
-  {linkedUrl && (
+      {linkedUrl && (
         <Link to={linkedUrl}>
           <FaLinkedin />
         </Link>

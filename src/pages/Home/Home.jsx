@@ -1,10 +1,15 @@
-import './home.css'
-import React from 'react';
-
+import React from "react";
+import Hero from "./hero";
+import Posts from "./post";
+import FeaturedWork from "./FeaturedWork";
 const Home = () => {
-    return <div>home page</div>;
-}
-
-
+  return (
+    <div>
+      <Hero />
+      <Posts />
+      <FeaturedWork />
+    </div>
+  );
+};
 
 export default Home;

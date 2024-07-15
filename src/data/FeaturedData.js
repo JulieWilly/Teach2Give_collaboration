@@ -1,4 +1,4 @@
-import dummy1 from '../assets/dummy.png';
+import dummy1 from "../assets/dummy.png";
 
 const FeaturedData = [
   {
