@@ -5,7 +5,7 @@ const Blog_structure = ({ blogTitle, blogDate, blogTopics, blogDesc }) => {
   return (
     <>
       <div className="blogs">
-        <h2>{blogTitle}</h2>
+        <h2 role="title_">{blogTitle}</h2>
         <div className="sub_sect">
           <p className="blog_date">{blogDate}</p>
           <hr className="vertical" />

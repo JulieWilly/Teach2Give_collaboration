@@ -1,8 +1,11 @@
-import "./works.css";
+import './works.css'
 import React from "react";
 
+
 const Works = () => {
-  return <div>hell worls</div>;
-};
+    return <div>hell worls
+
+    </div>;
+}
 
 export default Works;

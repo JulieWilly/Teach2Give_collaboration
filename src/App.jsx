@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Works from "./pages/Works/Works";
 import Home from "./pages/Home/Home";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/blogs" element={<Blog />} />
           <Route exact path="works" element={<Works />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   );
