@@ -1,16 +1,10 @@
-import React from 'react'
-import Hero from './hero'
-import Posts from './post'
-import FeaturedWork from './FeaturedWork'
+import './home.css'
+import React from 'react';
 
-function Home() {
-  return (
-    <div>
-      <Hero/>
-      <Posts/>
-      <FeaturedWork/>
-    </div>
-  )
+const Home = () => {
+    return <div>home page</div>;
 }
 
-export default Home
+
+
+export default Home;
