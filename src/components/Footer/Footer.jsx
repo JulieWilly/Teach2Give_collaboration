@@ -11,8 +11,6 @@ function Footer() {
           instaUrl={"instagram.com"}
           twitterUrl={"twitter.com"}
           linkedUrl={"linkedin.com"}
-        
-          
         />
         <p> copyright &copy; 2020 all rights reserved</p>
       </div>
