@@ -12,14 +12,22 @@ html {
 }
 .FeaturedTitle {
   text-transform: capitalize;
-
   text-align: left;
-  padding-inline: 7rem;
+  padding-inline: 10rem;
   font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.ActualContainers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .ActualContainer {
-  min-width: 100vw;
+  width: 60%;
   /* padding: 2rem; */
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
 }
@@ -77,6 +85,7 @@ html {
   width: 30rem;
   font-size: 1rem;
   font-weight: bold;
+  padding: 2rem;
 }
 
 @media screen and (max-width: 886px) {

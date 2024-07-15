@@ -1,10 +1,9 @@
 import React from "react";
 import "./works.css";
-import worksData from "./worksData.js";
+import worksData from "../../data/worksData.js";
 const Works = () => {
   return (
     <section className="works-section">
-      
       <div className="works">
         <h2 role="heading">Work</h2>
         {worksData.map((work, index) => (
@@ -14,21 +13,23 @@ const Works = () => {
                 <img src={work.imgSrc} alt={work.title} />
               </div>
               <div className="work-details">
-                <div className="title"><h4>{work.title}</h4></div>
+                <div className="title">
+                  <h4>{work.title}</h4>
+                </div>
                 <div className="sub">
-                  <div className="year" >
-                    <p role = "year">{work.year}</p>
+                  <div className="year">
+                    <p role="year">{work.year}</p>
                   </div>
                   <div className="add">
-                    <p role = "category">{work.category}</p>
+                    <p role="category">{work.category}</p>
                   </div>
                 </div>
                 <div className="work-description">
-                  <p  role="description">{work.description}</p>
+                  <p role="description">{work.description}</p>
                 </div>
               </div>
             </div>
-            <hr />
+            <hr className="work_line" />
           </React.Fragment>
         ))}
       </div>
