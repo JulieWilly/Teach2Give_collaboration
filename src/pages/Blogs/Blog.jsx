@@ -11,7 +11,7 @@ const Blog_structure = ({ blogTitle, blogDate, blogTopics, blogDesc }) => {
           <hr className="vertical" />
           <p>{blogTopics}</p>
         </div>
-        <p className="blog_desc">{blogDesc}</p>
+        <p role="blog_desc" className="blog_desc">{blogDesc}</p>
       </div>
       <hr className="horizontal" />
     </>
